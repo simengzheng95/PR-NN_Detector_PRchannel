@@ -20,19 +20,19 @@ conda env create -f environment.yml --name pr-nn
 
 There are three classical signal detection methods for the magnetic recording system: Viterbi detector, BCJR detector, NPML (Noise-predictive maximum-likelihood) detector. We provide the implemention codes in Python.
 
-Viterbi - Error bounds for convolutional codes and an asymptotically optimum decoding algorithm, by Andrew Viterbi.
+1.Viterbi - Error bounds for convolutional codes and an asymptotically optimum decoding algorithm, by Andrew Viterbi.
 
 ```
 python viterbi.py -info_len 1000000 -snr_start 8.5 -snr_stop 10.5
 ```
 
-BCJR (max-log-map and sliding-window implementation) - An intuitive justification and a simplified implementation of the MAP decoder for convolutional codes, by Andrew Viterbi 
+2.BCJR (max-log-map and sliding-window implementation) - An intuitive justification and a simplified implementation of the MAP decoder for convolutional codes, by Andrew Viterbi 
 
 ```
 python bcjr.py -info_len 1000000 -snr_start 8.5 -snr_stop 10.5
 ```
 
-NPML - Noise-predictive maximum likelihood (NPML) detection, by Jonathan D. Coker
+3.NPML - Noise-predictive maximum likelihood (NPML) detection, by Jonathan D. Coker
 
 ```
 python npml.py -info_len 1000000 -snr_start 8.5 -snr_stop 10.5
