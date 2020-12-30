@@ -18,7 +18,7 @@ conda env create -f environment.yml --name pr-nn
 
 ## Classical Detectors
 
-There are three classical signal detection methods for the magnetic recording system: Viterbi detector, BCJR detector, NPML (Noise-predictive maximum-likelihood) detector. We provide the implemention codes in Python.
+There are three main classical signal detection methods for the magnetic recording system: Viterbi detector, BCJR detector, NPML (Noise-predictive maximum-likelihood) detector. We provide the implemention codes in Python.
 
 1.Viterbi - Error bounds for convolutional codes and an asymptotically optimum decoding algorithm, by Andrew Viterbi.
 
