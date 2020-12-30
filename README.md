@@ -17,7 +17,7 @@ conda env create -f environment.yml --name <pr-nn>
 
 ## Training in 'Realistic' Systems
 
-## Questions
+## Emails
 Simeng Zheng - sizheng@eng.ucsd.edu
 
 Paul Siegel - psiegel@eng.ucsd.edu
