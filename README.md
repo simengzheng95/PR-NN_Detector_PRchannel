@@ -9,3 +9,13 @@ Install all required library (PyTorch):
 ```
 conda env create -f environment.yml --name <pr-nn>
 ```
+
+## Individual Training
+
+## Joint Training
+
+## Training in 'Realistic' Systems
+
+## Questions
+Simeng Zheng - sizheng@eng.ucsd.edu
+Paul Siegel - psiegel@eng.ucsd.edu
