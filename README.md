@@ -9,6 +9,7 @@ Install all required library (PyTorch):
 ```
 conda env create -f environment.yml --name <pr-nn>
 ```
+## Classical Detectors
 
 ## Individual Training
 
