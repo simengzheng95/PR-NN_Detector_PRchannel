@@ -32,6 +32,10 @@ python main_color.py -batch_size_snr_train_1 30 -batch_size_snr_train_2 30
 
 ## Training in 'Realistic' Systems
 
+In this part, we implement the channel as a 'realistic' recording system. In a 'realistic' recording system modeled as an equalized Lorentzian channel, the signal distortions include both colored noise and misequalization errors.
+
+We design the individual training and joint training (under two different channel parameters) in the 'realistic' systems.
+
 ## Classical Detectors
 
 There are three main classical signal detection methods for the magnetic recording system: Viterbi detector, BCJR detector, NPML (Noise-predictive maximum-likelihood) detector. We provide the implemention codes in Python.
