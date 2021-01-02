@@ -12,7 +12,7 @@ conda env create -f environment.yml --name pr-nn
 
 ## Individual Training
 
-We individually train PR-NN under AWGN or Additive colored noise (ACN) and evaluate PR-NN under this distortion. The colored noise is generated from the PR equalizer in magnetic recording model. 
+We individually train PR-NN under AWGN or Additive colored noise (ACN) and evaluate PR-NN under this distortion. The colored noise is generated from the PR equalizer in magnetic recording model. We compare the results in PR-NN with Viterbi, BCJR, and NPML. Additionally, we design the sliding block decoder (SBD) to recorver the data in the recording model.
 
 ## Joint Training
 
