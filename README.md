@@ -18,10 +18,14 @@ We individually train PR-NN under AWGN or Additive colored noise (ACN) and evalu
 
 Because the channel parameters in a magnetic hard disk storage system can vary, we design the joint training to see the robustness of PR-NN. We feed PR-NN with two kinds of distortions (two ACNs with different parameters) and evaluate PR-NN under these distortions. 
 
-In this part, we mainly consider two cases: 1) AWGN+ACN 2) ACN+ACN (with different channel parameters)
+In this part, we mainly consider two cases: 1) AWGN+ACN; 2) ACN+ACN (with different channel parameters). You can change the ratio of AWGN and ACN by changing the batch size for each noise.
 
 ```
 python main_white_color.py -batch_size_snr_train_white 30 -batch_size_snr_train_color 30
+```
+
+```
+python main_color.py -batch_size_snr_train_1 30 -batch_size_snr_train_2 30
 ```
 
 ## Training in 'Realistic' Systems
